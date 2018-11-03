@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial;
+    color: #000;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: #666666;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.green-text {
+    color: #178A27;
+}
+
+.blue-text {
+    color:#1686C1;
+}
+
+.green-btn {
+    background: #178A27;
+}
+
+.blue-btn {
+    background: #1686c1;
+}
+
+.red-btn {
+    background: #852406;
+}
+
+/*********Style for top fixed nav*********/
+
+/*******for li and a*******/
+
+.navbar-nav > li {
+    display: inline-block;
+  padding: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: 1px solid #646d7c;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #9d9d9d;
+}
+
+/*******for li and a END*******/
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.single-page-nav {
+    text-align: center;
+}
+
+
+/*********Style for top fixed nav END*********/
+
+
+/********************************* section 1 **********************************************/
+
+header {
+    background: url(img/bg-1.jpg) center no-repeat;
+    background-size: cover;
+    padding: 235px 0;
+    margin-bottom: 60px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.header-content {
+    color: #fff;
+}
+
+.header-content h1 {
+    font-size: 3.5em;
+    text-shadow: 2px 2px 3px black;
+}
+
+/************************************** section 1 END **************************************/
+
+
+
+
+
+/************************************* Start section 2 **************************************/
+
+/************** Start Feature Area **************/
+
+.feature-content {
+    background-color: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.feature-content-title {
+    padding: 0 20px;
+    text-align: left;
+}
+
+
+.feature-content-description {
+    padding: 0 20px 35px;
+    text-align: left;
+    color: #333333;
+    margin-top: 15px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+}
+
+.feature-content-link {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+}
+
+.feature-content-link.green-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #449D44;
+}
+
+.feature-content-link.blue-btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #31B0D5;
+}
+
+.feature-content-link.red-btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #C9302C;
+}
+
+/******************* Feature Area END *******************/
+
+
+
+
+
+/**************Start blog area**************/
+
+#blog-area {
+    margin: 60px 0;
+}
+
+.blog-content {
+    background: #F2F2F2;
+    padding-bottom: 25px;
+    max-width: 555px;
+    margin: 0 auto;
+}
+
+.blog-content p {
+    text-align: left;
+    padding: 27px;
+    color: #333333;
+}
+
+.blog-content h2 {
+    text-transform: capitalize;
+    color: #666666;
+}
+
+.blog-content span {
+    margin-left: 225px;
+}
+
+.blog-content span a {
+    padding: 10px 30px;
+    color: #666666;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.blog-content span a:hover {
+    background: #e6e6e6;
+}
+
+/**************End blog area**************/
+
+
+
+
+/***************************************Section 2 END***************************************/
+
+
+
+
+/**************************************Start section 3**************************************/
+
+
+#service-area {
+    background: url(img/bg-2.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.service-section {
+    height: 100%;
+}
+
+.our-service {
+    margin: 65px 0 85px;
+}
+
+.service h1 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.service > p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.testimonial-content p {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+#testimornial-area {
+    margin: 60px 0;
+}
+
+.testimonial-content {
+    background: #f2f2f2;
+    height: 500px;
+    max-width: 260px;
+    margin: 0 auto 30px;
+}
+
+.content-link {
+    background: #fff;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    color: #666;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top: 15px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.content-link:hover {
+    text-decoration: none;
+    color: #666;
+    background: #E6E6E6;
+}
+
+.tm-box {
+    background-color: #f2f2f2;
+    max-width: 1140px;
+    width: 100%;
+}
+
+.tm-box-description {
+    padding: 30px;
+}
+
+/**************************************End section 3**************************************/
+
+
+/*************************************Start section 4*************************************/
+
+#contact-area {
+    background: url(img/bg-3.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.contact-section .container {
+    max-width: 750px;
+}
+
+.contact-content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.contact-content p {
+    background: rgba(242, 242, 242, 0.4);
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+}
+
+.contact-form-left {
+    padding-left: 0;
+}
+
+.contact-form-right {
+    padding-right: 0;
+}
+
+
+.form-control {
+    border: none;
+    background: rgba(242, 242, 242, .4);
+}
+
+
+input {
+    margin-bottom: 15px;
+    color: inherit;
+}
+
+.form-group button {
+    background: #262628;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.from-froup button:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+
+}
+
