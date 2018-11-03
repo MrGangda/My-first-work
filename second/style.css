@@ -1,0 +1,328 @@
+.top-fixed-header {
+    background: #fff;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+
+.for-font h1 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.for-font {
+    padding-left: 5px;
+}
+
+.top-fixed-header h1 {
+    font-family: "Open Sans", "PT Sans", Arial, Helvetica, sans-serif;
+}
+
+.top-fixed-header h1, .top-fixed-header img {
+    display: inline-block;
+}
+
+.icon-img {
+    width: 37px;
+    height: 37px;
+    background: url(http://www.labuvette.ru/skin/frontend/default/labuvette-revendeur/images/icons_home.jpg) center no-repeat;
+    float: right;
+    margin-top: 10px;
+}
+
+.for-blocks {
+    padding-top: 10px;
+    padding-right: 0;
+}
+
+.for-blocks img {
+    float: right;
+}
+
+
+
+
+/*******************************************section 1 start*******************************************/
+
+.img-big {
+    width: 100%;
+    height: 700px;
+    background: url(img/big-1.jpg) center no-repeat;
+    background-size: cover;
+    padding: 235px 0;
+    margin: 0;
+    background-blend-mode: multiply;
+    background-color: rgba(119, 126, 137, 1);
+    background-attachment: fixed;
+}
+
+.img-big p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.blue-line {
+    width: 485px;
+    height: 3px;
+    background-color: #517ed2;
+    margin: 0 auto;
+  
+}
+
+.img-big h1 {
+    color: #ffffff;
+    font-size: 50px;
+    
+}
+
+.my-btn {
+    background-color: rgb(21, 164, 250);
+    color: #fff;
+    transition: all .3s ease-in-out;
+    margin-top: 20px;
+}
+
+.my-btn:hover {
+     color: #fff;
+     box-shadow: inset 1px 1px 10px #000000;
+     text-shadow: 0px 2px 3px rgba(0,0,0,.5);
+}
+
+/**************************************End section 1**************************************/
+
+
+/*************************************Start section 2*************************************/
+
+#section2 {
+    width: 100%;
+    height: 760px;
+    background: #fff;
+}
+
+.add-class {
+    padding: 85px 0;
+    background-color: rgb(246, 249, 249);
+}
+
+.special-content {
+    color: rgb(45, 57, 80)
+}
+
+.description-in-two-section {
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+}
+
+.marks {
+    padding: 65px 0;
+}
+
+.icon {
+    /*width: 165px;*/
+    height: 165px;
+    display: inline-block;
+    margin: 0 50px;
+    padding: 0 15px;
+}
+
+.marks .icon p {
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+}
+
+.marks .icon h4 {
+    font-size: 20px;
+    color: rgb(45, 57, 80);
+}
+
+.marks .icon img {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+/********************************************End section 2********************************************/
+
+/*******************************************Start section 3*******************************************/
+
+#section3 {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(246, 249, 249);
+}
+
+.for-padd {
+    padding: 78px 0;
+}
+
+
+#photos .photo {
+    width: 350px;
+    height: 250px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5)
+}
+
+.for-img-pad {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.photo-img-one{
+    background: url(img/mini-1.jpg) center no-repeat;
+    background-size: cover;
+}
+.photo-img-two{
+    background: url(img/mini-2.jpg) center no-repeat;
+    background-size: cover;
+}
+.photo-img-three{
+    background: url(img/mini-3.jpeg) center no-repeat;
+    background-size: cover;
+}
+.photo-img-four{
+    background: url(img/mini-4.jpg) center no-repeat;
+    background-size: cover;
+}
+.photo-img-five{
+    background: url(img/mini-5.jpg) center no-repeat;
+    background-size: cover;
+}
+.photo-img-six{
+    background: url(img/mini-6.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/*********************************************End section 3*********************************************/
+
+
+
+/********************************************Start section 4********************************************/
+
+
+#last-section {
+    width: 100%;
+    height: 700px;
+    background: url(img/big-2.jpg) center no-repeat;
+    background-size: cover;
+    background-color: rgba(45, 57, 80, .7);
+    background-blend-mode: multiply;
+    padding-top: 75px;
+}
+
+
+#last-section h1 {
+    font-size: 41px;
+    color: #fff;
+}
+
+#last-section p {
+    font-size: 15px;
+    color: #939495;
+}
+
+#forms {
+    margin-top: 50px;
+}
+
+#my-form {
+    background: none;
+    padding: 25px 20px;
+}
+
+.form-control {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+input {
+    color: #fff;
+}
+
+.hg-massage {
+    padding: 25px 20px;
+    height: 160px;
+    line-height: 0;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+#check {
+    margin-left: 20px;
+    color: #e0e1e3;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.my-button {
+    float: right;
+    background: #15a4fa;
+    padding: 10px 45px;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+
+.my-button:hover {
+    color: #fff;
+    box-shadow: inset 1px 1px 10px #000000;
+    text-shadow: 0px 2px 3px rgba(0,0,0,.5);
+}
+
+/********************************************End section 4********************************************/
+
+/********************************************Start footer********************************************/
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #f6f9f9;
+    padding: 25px 225px;
+}
+
+.footer p {
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    height: 40px;
+    line-height: 40px;
+}
+
+.social {
+    width: 175px;
+    height: 40px;
+    float: right;
+    display: inline-block;
+}
+
+.social a {
+    background: url(img/sprite.jpg) no-repeat;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.social .fb {
+    background-position: 0 0;
+}
+
+.social .tw {
+    background-position: 0 -43px;
+}
+
+.social .g {
+    background-position: 0 -127px;
+}
+
+.social .in {
+    background-position: 0 -85px;
+}
+
+/*End footer*/
+
+
+
